@@ -1,0 +1,9 @@
+---
+# tasks file for awcrosby.bell
+
+- name: Turn off bell in terminal
+  become: true
+  lineinfile:
+    path: /etc/inputrc
+    state: present
+    line: 'set bell-style visible'
