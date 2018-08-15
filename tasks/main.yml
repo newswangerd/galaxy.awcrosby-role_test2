@@ -2,7 +2,7 @@
 # tasks file for awcrosby.bell
 
 - name: Turn off bell in terminal
-  become: true
+  sudo: true
   lineinfile:
     path: /etc/inputrc
     state: present

@@ -1,2 +1,5 @@
 ---
 # handlers file for awcrosby.bell
+
+- name: Test ansible-lint, shell not module
+  shell: yum grouplist
