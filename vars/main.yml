@@ -1,6 +1,0 @@
----
-# vars file for awcrosby.bell
-
-? "-did not find":expected_key
-:
-  bad: yaml

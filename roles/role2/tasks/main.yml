@@ -1,0 +1,6 @@
+---
+# tasks file for role2
+
+- name: Add mongodb repo apt_key
+  become: true
+  apt_key: keyserver=hkp://keyserver.ubuntu.com:80 id=2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5

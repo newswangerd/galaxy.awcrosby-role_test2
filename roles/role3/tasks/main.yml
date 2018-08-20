@@ -1,0 +1,5 @@
+---
+# tasks file for role3
+
+- name: using git module
+  action: git repo=blah
