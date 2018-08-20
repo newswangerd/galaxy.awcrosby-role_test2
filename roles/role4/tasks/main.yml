@@ -1,0 +1,5 @@
+---
+# tasks file for role4
+
+- name: Test ansible-lint, shell not module
+  shell: yum grouplist
