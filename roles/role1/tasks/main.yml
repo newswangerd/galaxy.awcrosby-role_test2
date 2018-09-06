@@ -5,4 +5,4 @@
   sudo: true
   copy:
     src: vars.yml
-    dest: {{ dest_proj_path }}/config/ansible/vars.yml
+    dest: "{{ dest_proj_path }}/config/ansible/vars.yml"
