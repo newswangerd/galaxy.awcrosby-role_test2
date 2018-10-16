@@ -3,3 +3,6 @@
 
 - name: using git module
   action: git repo=blah
+- name: using git module
+  action: git repo=blah
+  sudo: yes
