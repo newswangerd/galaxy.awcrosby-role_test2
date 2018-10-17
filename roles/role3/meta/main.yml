@@ -15,12 +15,3 @@ galaxy_info:
   - missing_name: No name
     versions:
     - 25
-
-  video_links:
-  - url: https://youtu.be/aWmRepTSFKs
-    title: Proper format
-  - https://youtu.be/this_is_not_a_dictionary
-  - my_bad_key: https://youtu.be/aWmRepTSFKs
-    title: This has a bad key
-  - url: www.myvid.com/vid
-    title: Bad formatted url
