@@ -1,0 +1,7 @@
+language: python
+
+script:
+  - echo "hello world"
+
+notifications:
+  webhooks: https://galaxy.ansible.com/api/v1/notifications/
